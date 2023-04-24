@@ -1,9 +1,7 @@
 <template>
   <div>
     <HeaderComponent/>
-    <MainComponent>
-      
-    </MainComponent>
+    <MainComponent/>
   </div>
 </template>
 

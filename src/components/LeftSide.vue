@@ -1,5 +1,43 @@
 <template>
     <section class="leftSide">
-        <img src="assets/img/illustration-mockups.png" alt="Ilustração de websites" class="leftSide__img">
+        <img :src="image" :alt="alt" class="leftSide__img">
     </section>
 </template>
+
+<script>
+import ilustracao from "../assets/img/illustration-mockups.png";
+export default {
+    name: "Leftside",
+    data() {
+        return{
+            image: ilustracao,
+            alt: "Ilustração de websites"
+        }
+    }
+}
+</script>
+
+<style>
+.leftSide{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.leftSide__img{
+    width: 18.5rem;
+    margin-top: 4.375rem;
+}
+
+@media screen and (min-width: 376px) {
+    .leftSide{
+        width: auto;
+    }
+
+    .leftSide__img{
+        width: 43.4rem;
+        height: 31rem;
+        margin-top: 0;
+    }
+}
+</style>

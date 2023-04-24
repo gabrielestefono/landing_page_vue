@@ -1,11 +1,17 @@
 <template>
     <main class="main">
+        <LeftSide/>
     </main>
 </template>
 
 <script>
+import LeftSide from './LeftSide.vue';
+//import RightSide from './RightSide.vue';
 export default {
-    name: "MainComponent"
+    name: "MainComponent",
+    components: {
+        LeftSide, //RightSide
+    }
 }
 </script>
 
