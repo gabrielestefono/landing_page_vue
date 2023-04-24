@@ -5,3 +5,86 @@
         <button class="description__button">Register</button>
     </section>
 </template>
+
+<script>
+export default {
+    name: "Rightside"
+}
+</script>
+
+<style>
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description__title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 3.75rem;
+    width: 17.5rem;
+    line-height: 36px;
+}
+
+.description__text{
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    width: 19rem;
+    line-height: 24px;
+}
+
+.description__button{
+    margin-top: 1.5rem;
+    width: 12.5rem;
+    height: 2.5rem;
+    background-color: white;
+    color: #684BB1;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.description__button:hover{
+    background-color: #E880E8;
+    transition: 200ms;
+}
+
+@media screen and (min-width: 376px) {
+    .description{
+        align-items:start;
+        text-align: left;
+        margin-top: 2rem;
+        line-height: 60px;
+    }
+    
+    .description__title{
+        margin-top: 0.5rem;
+        width: 30.5rem;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    .description__text{
+        margin-top: 1.5rem;
+        width: 32.5rem;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    .description__button{
+        margin-top: 1.5rem;
+        height: 3.5rem;
+        border-radius: 28px;
+        font-size: 18px;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+    }
+}
+</style>
