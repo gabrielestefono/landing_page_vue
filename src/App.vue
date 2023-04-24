@@ -1,14 +1,20 @@
 <template>
-  <HeaderComponent/>
+  <div>
+    <HeaderComponent/>
+    <MainComponent>
+      
+    </MainComponent>
+  </div>
 </template>
 
 <script>
 import HeaderComponent from './components/Header.vue';
+import MainComponent from './components/Main.vue';
 
 export default {
-  name: 'App',
+  name: 'Container',
   components: {
-    HeaderComponent
+    HeaderComponent, MainComponent
   }
 }
 </script>
@@ -28,13 +34,6 @@ export default {
         background-image: url(./assets/img/bg-desktop.svg);
         display: flex;
         flex-direction: column;
-    }
-
-    .main{
-        display: flex;
-        justify-content: center;
-        gap: 64px;
-        margin-top: 6rem;
     }
 }
 </style>
