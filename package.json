@@ -1,8 +1,11 @@
 {
+  "homepage": "https://gabrielestefono.github.io/landing_page_vue",
   "name": "landing_page",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeloy": "npm run build",
+    "deploy":"gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
@@ -12,6 +15,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "gh-pages": "^5.0.0"
   }
 }
