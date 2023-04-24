@@ -1,10 +1,14 @@
+<template>
+  <HeaderComponent/>
+</template>
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from './components/Header.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderComponent
   }
 }
 </script>
