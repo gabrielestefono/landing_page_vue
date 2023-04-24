@@ -1,8 +1,3 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -15,12 +10,27 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  @import url(./assets/css/reset.css);
+  body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url(../img/bg-mobile.svg);
+    background-color: #674baf;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 376px) {
+    body{
+        background-image: url(../img/bg-desktop.svg);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+        gap: 64px;
+        margin-top: 6rem;
+    }
 }
 </style>
