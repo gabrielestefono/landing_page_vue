@@ -38,8 +38,9 @@ A página é uma web aplicação é uma página, landing page feita em Vue.JS pa
 email: gabrielestefono@hotmail.com
 
 ## Link do deploy
-https://gabrielestefono.github.io/Componente_QR_Code_Vue/
+https://gabrielestefono.github.io/landing_page_vue/
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/104292192/234366017-06b04463-e68c-417b-ab29-8775a34f0b04.png)
+![image](https://user-images.githubusercontent.com/104292192/234371409-2ed318ab-7dda-4c45-91fa-f051fd18e586.png)
+
 
