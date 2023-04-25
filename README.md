@@ -31,7 +31,7 @@ Pronto! Agora você deve estar visualizando o website localmente no seu navegado
 
 ## Como usar:
 
-A página é uma web aplicação é uma página, landing page feita em React.JS para simples demonstração de um produto com um botão de registre-se (Não funcional)
+A página é uma web aplicação é uma página, landing page feita em Vue.JS para simples demonstração de um produto com um botão de registre-se (Não funcional)
 
 ## Contato
 
