@@ -19,9 +19,9 @@ https://github.com/gabrielestefono/landing-page_react
 #### Node.Js
 * Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em https://nodejs.org/.
 #### Clone o repositório do GitHub em seu computador:
-git clone https://github.com/gabrielestefono/landing-page_react
+git clone https://github.com/gabrielestefono/landing_page_vue
 #### Acesse a sua pasta através do terminal
-cd landing-page_react
+cd landing_page_vue
 #### Instale as dependências 
 Execute o comando -> npm install
 #### Execute o aplicativo localmente:
