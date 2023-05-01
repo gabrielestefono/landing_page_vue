@@ -1,12 +1,12 @@
 # Landing Page
 
-Este é o meu projeto de Landing page feito em React.JS, ele também foi feito em JavaScript Vanilla e Vue.JS, seguem os links
+Este é o meu projeto de Landing page feito em Vue.JS, ele também foi feito em JavaScript Vanilla e react.JS, seguem os links
 
-Segue o link do repositório do mesmo projeto feito em React.JS:
+Segue o link do repositório do mesmo projeto feito em JavaScript Vanilla:
 
 https://github.com/gabrielestefono/landing-page
 
-Segue o link do repositório do mesmo projeto feito em Vue.JS:
+Segue o link do repositório do mesmo projeto feito em react.JS:
 
 https://github.com/gabrielestefono/landing-page_react
 
